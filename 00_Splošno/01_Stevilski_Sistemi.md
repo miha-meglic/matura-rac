@@ -20,21 +20,18 @@ Postopek:
 
 Primer - 42 iz desetiškega v dvojiški sistem:
 
-<img src="https://render.githubusercontent.com/render/math?math=42_{(10)}\div2=21\:\text{ostanek}\:0">
-
-<img src="https://render.githubusercontent.com/render/math?math=21_{(10)}\div2=10\:\text{ostanek}\:1">
-
-<img src="https://render.githubusercontent.com/render/math?math=10_{(10)}\div2=5\:\text{ostanek}\:0">
-
-<img src="https://render.githubusercontent.com/render/math?math=5_{(10)}\div2=2\:\text{ostanek}\:1">
-
-<img src="https://render.githubusercontent.com/render/math?math=2_{(10)}\div2=1\:\text{ostanek}\:0">
-
-<img src="https://render.githubusercontent.com/render/math?math=1_{(10)}\div2=0\:\text{ostanek}\:1">
-
---
-
-<img src="https://render.githubusercontent.com/render/math?math=42_{(10)}=101010_{(2)}">
+$$
+\begin{align*}
+	42_{(10)} / 2 &= 21 &\text{ostanek}\;0 \\
+	21_{(10)} / 2 &= 10 &\text{ostanek}\;1 \\
+	10_{(10)} / 2 &= 5 &\text{ostanek}\;0 \\
+	5_{(10)}  / 2 &= 2 &\text{ostanek}\;1 \\
+	2_{(10)}  / 2 &= 1 &\text{ostanek}\;0 \\
+	1_{(10)}  / 2 &= 0 &\text{ostanek}\;1 \\
+	\hline
+	42_{(10)} &= &101010_{(2)}
+\end{align*}
+$$
 
 ### Dvojiški -> Desetiški
 
@@ -44,7 +41,7 @@ Postopek:
 
 Primer - 10011 iz dvojiškega v desetiški sistem:
 
-<img src="https://render.githubusercontent.com/render/math?math=10011_{(2)}=1\times2^4%2B0\times2^3%2B0\times2^2%2B1\times2^1%2B1\times2^0=19_{(10)}">
+$$10011_{(2)}= 1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 19_{(10)}$$
 
 ### Dvojiški -> Šestnajstiški
 
@@ -55,7 +52,7 @@ Postopek:
 
 Primer - 11010110 iz dvojiškega v desetiški sistem:
 
-<img src="https://render.githubusercontent.com/render/math?math=1101\:0110_{(2)}=(1\times2^3%2B1\times2^2%2B1\times2^0=13_{(10)}=D_{(16)}),(1\times2^2%2B1\times2^1=6_{(10)}=6_{(16)})=D6_{(16)}">
+$$1101\:0110_{(2)} = (1 \times 2^3 + 1 \times 2^2 + 1 \times 2^0 = 13_{(10)} = D_{(16)}) , (1 \times 2^2 + 1 \times 2^1 = 6_{(10)} = 6_{(16)}) = D6_{(16)}$$
 
 ### Šestnajstiški -> Dvojiški
 
